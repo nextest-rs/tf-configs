@@ -1,0 +1,19 @@
+# Local provider plugins and cached modules.
+.terraform/
+
+# State may exist locally until a remote backend is configured. Never commit it.
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs and local overrides.
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config that may contain credentials.
+.terraformrc
+terraform.rc
