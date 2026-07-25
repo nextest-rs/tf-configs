@@ -24,7 +24,7 @@ resource "github_organization_ruleset" "protect_default_branch" {
 
   # Org owners can bypass requirements.
   bypass_actors {
-    actor_id    = 1
+    actor_id    = 0
     actor_type  = "OrganizationAdmin"
     bypass_mode = "always"
   }
