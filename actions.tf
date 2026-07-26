@@ -9,7 +9,6 @@ resource "github_actions_organization_permissions" "this" {
     # Enumerated from actions actually used across org workflows.
     # Add new third-party actions here.
     patterns_allowed = [
-      "JamesIves/github-pages-deploy-action@*",
       "Swatinem/rust-cache@*",
       "actions-rs/*",
       "cloudflare/*",
