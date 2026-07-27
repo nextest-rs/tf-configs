@@ -10,6 +10,7 @@ resource "github_actions_organization_permissions" "this" {
     # Add new third-party actions here.
     patterns_allowed = [
       "Swatinem/rust-cache@*",
+      "cargo-bins/cargo-binstall@main",
       "cloudflare/*",
       "codecov/*",
       "dtolnay/rust-toolchain@*",
